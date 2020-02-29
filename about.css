@@ -1,0 +1,56 @@
+body{
+background-image:url("back2.jpg");
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-attachment:fixed;
+color:white;
+margin:0px;
+}
+
+.blog{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+.item{
+float:left;
+width:14.28%;
+overflow:hidden;
+height:6.1vh;
+background-color:blue;
+opacity:.8;
+line-height:6.1vh;
+text-align:center;
+font-size:3.3vmin;
+}
+ul li a{
+text-decoration:none;
+color:white;
+display:block;
+}
+ul li a:hover{
+background-color:red;
+color:#7fff00;
+font-size:3.8vmin;
+}
+
+ul li a:active{
+	background-color: black;
+	color: white;
+}
+img{
+	width: 21vmax;
+	height: 21vmax;
+	border-radius: 50%;
+	margin-top: 15vmin;
+}
+p{
+	margin: 10px;
+	text-align: center;
+	font-size: 4vmin;
+}
+h5{
+	font-family: Harlow Solid Italic;
+	font-size: 5vmin;
+	margin: 15px;
+}
